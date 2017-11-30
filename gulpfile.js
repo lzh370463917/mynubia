@@ -2,14 +2,14 @@ var gulp=require("gulp"),
 	sass=require("gulp-sass"),
 	livereload=require("gulp-livereload");
 
-gulp.task(["sass"],function(){
-	gulp.src("sass/*.sass")
-		.pipe(sass({outputstyle:compressed}))
+gulp.task("sass",function(){
+	gulp.src("sass/*.scss")
+		.pipe(sass({outputStyle:"compressed"}))
 		.pipe(gulp.dest("css"))
 		.pipe(livereload());
 });
 
-gulp.task(["livereload"],function(){
+gulp.task("watch",function(){
 	livereload.listen();
-	gulp.watch("sass/*.sass",["sass"]);
+	gulp.watch("sass/*.scss",["sass"]);
 })
