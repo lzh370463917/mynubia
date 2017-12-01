@@ -8,17 +8,17 @@
     .down {
         display: flex;
         justify-content: space-around;
-        div {
+        .scale {
             position: relative;
-            width: 330px;
-            height: 220px;
+            width: 33%;
+            height: 330px;
             overflow: hidden;
             a {
                 color: #ffffff;
                 h3 {
                     position: absolute;
-                    top: 50%;
-                    left: 0;
+                    top: 45%;
+                    left: 15%;
                     padding: 0 50px;
                     text-align: center;
                     font-weight: normal;
@@ -27,9 +27,9 @@
             img {
                 width: 105%;
             }
-            &:nth-last-child(1){
-                a{
-                    h3{
+            &:nth-last-child(1) {
+                a {
+                    h3 {
                         padding: 0 99px;
                     }
                 }
