@@ -11,12 +11,12 @@ fieldset,legend, input, button, textarea, p, blockquote,
     display: flex;
     .logo{
         height: 67px;
-        margin-left: 34px;
+        margin-left: 3.5%;
         img{
             height: 67px;
         }
     }
-    ul{
+    .guide{
         display: flex;
         width: 69%;
         justify-content: space-around;
@@ -24,13 +24,27 @@ fieldset,legend, input, button, textarea, p, blockquote,
             font-size: 13px;
             line-height: 67px;
             color: #ffffff;
+            &:hover{
+                color: #666666;
+                cursor: pointer;
+            }
             i{
                 font-size: 18px;
+            }
+            .container{
+                width: 970px;
+                height: 240px;
+                overflow: hidden;
+                a{
+                    img{
+                        width: 45px;
+                    }
+                }
             }
         }
     }
     .cart{
-        width: 120px;
+        width: 12%;
         height: 67px;
         background: #f25c4a;
         font-size: 16px;
