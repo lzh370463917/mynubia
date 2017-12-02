@@ -1,8 +1,36 @@
 .main {
     width: 100%;
     .up {
-        img {
-            width: 100%;
+        #myCarousel {
+            .carousel-indicators {
+                li {
+                    width: 6%;
+                    height: 2%;
+                    background: #e95f46;
+                    border-radius: 0;
+                }
+            }
+            .carousel-control {
+                opacity: 1;
+                .prev {
+                    display: inline-block;
+                    width: 48px;
+                    font-size: 48px;
+                    position: absolute;
+                    top: 45%;
+                    left: 10%;
+                    opacity: 0;
+                }
+                .next{
+                    display: inline-block;
+                    width: 48px;
+                    font-size: 48px;
+                    position: absolute;
+                    top: 45%;
+                    opacity: 0;
+                    right: 10%;
+                }
+            }
         }
     }
     .down {
@@ -11,7 +39,6 @@
         .scale {
             position: relative;
             width: 33%;
-            height: 330px;
             overflow: hidden;
             a {
                 color: #ffffff;

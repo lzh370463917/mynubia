@@ -5,6 +5,7 @@ require.config({
 		"cookie":"lib/jquery_plugins/jquery.cookie",
 		"fly":"lib/jquery_plugins/jquery.fly.min",
 		"template":"lib/arttemplate/template",
-		"loadheaderfooter":"js/loadHeaderFooter"
+		"loadheaderfooter":"js/loadHeaderFooter",
+		"bootstrap":"lib/bootstrap/js/bootstrap.min"
 	}
 })

@@ -2,18 +2,53 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>		
 		<link rel="stylesheet" type="text/css" href="css/header.css"/>
 		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
 		<link rel="stylesheet" type="text/css" href="lib/font/iconfont.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
-		<!--<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css"/>-->
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css"/>
 	</head>
 	<body>
 		<div class="header"></div>
 		<div class="main">
 			<div class="up">
-				<img src="images/151201897213.jpg"/>
+				<div id="myCarousel" class="carousel slide">
+				    <!-- 轮播（Carousel）指标 -->
+				    <ol class="carousel-indicators">
+				        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				        <li data-target="#myCarousel" data-slide-to="1"></li>
+				        <li data-target="#myCarousel" data-slide-to="2"></li>
+				        <li data-target="#myCarousel" data-slide-to="3"></li>
+				        <li data-target="#myCarousel" data-slide-to="4"></li>
+				    </ol>   
+				    <!-- 轮播（Carousel）项目 -->
+				    <div class="carousel-inner">
+				        <div class="item active">
+				            <a href="#"><img src="images/151201897213.jpg" alt="First slide"></a>
+				        </div>
+				        <div class="item">
+				            <a href="#"><img src="images/150958900638.jpg" alt="Second slide"></a>
+				        </div>
+				        <div class="item">
+				            <a href="#"><img src="images/150959275480.jpg" alt="Third slide"></a>
+				        </div>
+				        <div class="item">
+				            <a href="#"><img src="images/150958951828.jpg" alt="fourth slide"></a>
+				        </div>
+				        <div class="item">
+				            <a href="#"><img src="images/150811561722.jpg" alt="fifth slide"></a>
+				        </div>
+				    </div>
+				    <!-- 轮播（Carousel）导航 -->
+				    <a class="carousel-control left" href="#myCarousel" 
+				        data-slide="prev"><i class="prev"><</i>
+				    </a>
+				    <a class="carousel-control right" href="#myCarousel" 
+				        data-slide="next"><i class="next">></i>
+				    </a>
+				</div>
 			</div>
 			<div class="down">
 				<div class="scale"><a href="#"><img src="images/150788670955.jpg"/><h3>努比亚Z17S无边框全面屏 未来全面而来</h3></a></div>
@@ -24,13 +59,13 @@
 		
 		<div class="footer"></div>
 		
+		
+		<!--<script src="lib/jquery/jquery-1.12.4.min.js"></script>
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script>-->
 		<script src="lib/requirejs/require.js" data-main="/js/index"></script>
-		<script src="lib/jquery/jquery-1.12.4.min.js"></script>
 		<script type="text/javascript">
 			
 			
 		</script>
-		
-		
 	</body>
 </html>

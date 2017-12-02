@@ -2,7 +2,8 @@ html,body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form,
 fieldset,legend, input, button, textarea, p, blockquote,
  th, td { margin: 0;padding: 0; box-sizing:border-box;}
  ul li{list-style: none;}
- a{text-decoration: none;}
+ a,a:hover{text-decoration: none;}
+ 
  @charset "UTF-8";
 .out{
     width: 100%;
@@ -21,25 +22,86 @@ fieldset,legend, input, button, textarea, p, blockquote,
         width: 69%;
         justify-content: space-around;
         li{
+            position: relative;
             font-size: 13px;
             line-height: 67px;
             color: #ffffff;
             &:hover{
                 color: #666666;
                 cursor: pointer;
-            }
-            i{
-                font-size: 18px;
-            }
-            .container{
-                width: 970px;
-                height: 240px;
-                overflow: hidden;
                 a{
-                    img{
-                        width: 45px;
+                    i{
+                        color: #666666;
                     }
                 }
+            }
+            i{
+                color: #ffffff;
+                font-size: 18px;
+            }
+            div{
+                position: absolute;
+                top: 118%;
+                left: -280px;
+                width: 3874%;
+                height: 240px;
+                overflow: hidden;
+                z-index: 999;
+                background: #606463;
+                display: none;
+                ul{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    li{
+                        &:hover{
+                            a{
+                                color: #A9A9A9;
+                            }
+                        }
+                        a{
+                            color: #ffffff;
+                            display: flex;
+                            flex-flow: column;
+                            justify-content: center;
+                            img{
+                                width: 120px;
+                                height: 120px;
+                            }
+                            span{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+            #fitbox{
+                left: -355px;
+                i{
+                    font-size: 55px;
+                }
+            }
+            #photobox{
+                left: -428px;
+                i{
+                    font-size: 55px;
+                }
+            }
+            #nbuibox{
+                left: -737px;
+                width: 1992%;
+                a{
+                    img{
+                        width: 75px;
+                        height: 75px;
+                    }
+                    i{
+                        font-size: 55px;
+                    }
+                }
+                
             }
         }
     }

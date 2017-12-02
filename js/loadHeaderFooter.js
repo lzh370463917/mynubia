@@ -1,7 +1,33 @@
 define(["jquery","cookie"],function(){
 	$.ajax("/html/include/header.html").done(function(data){
 		$(".header").html(data);
-	}).done(function(){});
+	}).done(function(){
+		$(".cellphone").hover(function(){
+			$("#z17box").stop().fadeIn();
+//			$("#z17box").stop().animate({height:"240px"},600);
+		},function(){
+			$("#z17box").stop().fadeOut();
+//			$("#z17box").stop().animate({height:"0px"},600);
+		});
+		
+		$(".fitting").hover(function(){
+			$("#fitbox").stop().fadeIn();
+		},function(){
+			$("#fitbox").stop().fadeOut();
+		});
+		
+		$(".photograph").hover(function(){
+			$("#photobox").stop().fadeIn();
+		},function(){
+			$("#photobox").stop().fadeOut();
+		});
+		
+		$(".nbui").hover(function(){
+			$("#nbuibox").stop().fadeIn();
+		},function(){
+			$("#nbuibox").stop().fadeOut();
+		});
+	});
 	
 	//尾部微信二维码淡入淡出效果
 	$.ajax("/html/include/footer.html").done(function(data){
