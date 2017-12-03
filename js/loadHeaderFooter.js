@@ -27,6 +27,16 @@ define(["jquery","cookie"],function(){
 		},function(){
 			$("#nbuibox").stop().fadeOut();
 		});
+		
+		var _width=$(window).width();
+		$(".guide div").css({"width":_width,});
+		$(".guide div ul li a i").css({"color":"#ffffff"});
+		$(".guide div ul li a i").hover(function(){
+			$(this).css({"color":"#A9A9A9"})
+		},function(){
+			$(this).css({"color":"#ffffff"})
+		})
+		
 	});
 	
 	//尾部微信二维码淡入淡出效果
