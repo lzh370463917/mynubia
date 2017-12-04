@@ -1,0 +1,19 @@
+require(["config"],function(){
+	require(["jquery","cookie"],function(){
+		$("#phone_register").on("click",function(){
+			$(this).css({"color":"#e8380d"});
+			$(".phone_register").show(0,function(){
+				$("#email_regiseter").css({"color":"#333333"})
+			});
+			$(".email_register").hide();
+		})
+		
+		$("#email_regiseter").on("click",function(){
+			$(this).css({"color":"#e8380d"});
+			$(".phone_register").hide();
+			$(".email_register").show(0,function(){
+				$("#phone_register").css({"color":"#333333"})
+			});
+		})
+	})
+})

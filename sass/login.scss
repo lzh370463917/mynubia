@@ -1,5 +1,8 @@
 
-
+ 
+body{
+    background: #f5f5f5;
+}
 .container{
     width: 850px;
     margin: 0 auto;
@@ -7,4 +10,224 @@
     background: #fff;
     margin-bottom: 40px;
     padding-bottom: 80px;
+    overflow: hidden;
+    .logo{
+        background: url(/images/login_logo.jpg) no-repeat;
+        background-size: 100% 100%;
+        width: 156px;
+        height: 25px;
+        margin: 0 auto;
+        margin-top: 30px;
+        
+    }
+    form{
+        .navTab{
+            width: 270px;
+            margin: 0 auto;
+            font-size: 18px;
+            color: #333333;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            #account_login,#phone_login{
+                cursor: pointer;
+            }
+            #account_login{
+                color: #e8380d;
+            }
+        }
+        .navCon{
+            width: 360px;
+            margin: 0 auto;
+//          账号登录
+            .reg_id{
+                width: 360px;
+                height: 120px;
+                font-size: 12px;
+                line-height: 50px;
+                .username{
+                    position: relative;
+                    width: 360px;
+                    height: 50px;
+                    margin-bottom: 20px;
+                    #in_username{
+                        width: 360px;
+                        height: 50px;
+                        border: 1px solid #e0e4e7;
+                        padding-left: 10px;
+                        font-size: 12px;
+                    }
+                    span{
+                        position: absolute;
+                        right: -80px;
+                        top: 0;
+                        color: #FF0000;
+                    }
+                    
+                }
+                .password{
+                    position: relative;
+                    width: 360px;
+                    height: 50px;
+                    position: relative;
+                    #in_password{
+                        width: 360px;
+                        height: 50px;
+                        border: 1px solid #e0e4e7;
+                        padding-left: 10px;
+                        font-size: 12px;
+                    }
+                    span{
+                        position: absolute;
+                        right: -80px;
+                        top: 0;
+                        color: #FF0000;
+                        }
+                }
+            }
+//          手机登录
+            .reg_phone{
+                width: 360px;
+                height: 191px;
+                font-size: 12px;
+                line-height: 50px;
+                margin: 0 auto;
+                display: none;
+                >div{
+                    width: 360px;
+                    height: 50px;
+                    input{
+                        border: 1px solid #e0e4e7;
+                        padding-left: 10px;
+                    }
+                    span{
+                        color: #FF0000;
+                    }
+                }
+                .phone_number{
+                    position: relative;
+                    margin-bottom: 20px;
+                    >input{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    >span{
+                        position: absolute;
+                        right: -92px;
+                        top: 0;
+                    }
+                }
+                .valicode{
+                    position: relative;
+                    margin-bottom: 20px;
+                    >input{
+                        height: 100%;
+                        width: 70%;
+                    }
+                    .getcode{
+                        display: inline-block;
+                        width: 28%;
+                        height: 95%;
+                        border: 1px solid #e0e4e7;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                    }
+                    span{
+                        position: absolute;
+                        top: 0;
+                        right: -92px;
+                    }
+                }
+                .phone_valicode{
+                    position: relative;
+                    >input{
+                       width: 75%;
+                       height: 100%;
+                    }
+                    >button{
+                        border: 1px solid #e0e4e7;
+                        width: 24%;
+                        height: 100%;
+                        background: #FFFFFF;
+                        
+                    }
+                    >span{
+                        position: absolute;
+                        top: 0;
+                        right: -116px;
+                    }
+                }
+            }
+        }
+        #login_btn{
+            width: 360px;
+            height: 50px;
+            margin: 0 auto;
+            margin-left: 245px;
+            margin-top: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            background: #e8380d;
+            color: #FFFFFF;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            display: block;
+        }
+        .forget{
+            width: 370px;
+            height: 24px;
+            line-height: 24px;
+            font-size: 14px;
+            text-align: right;
+            margin: 0 auto;
+            a{
+                color: #34383d;
+                &:hover{
+                    color: #e8380d;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .thirdlogin{
+            width: 370px;
+            line-height: 28px;
+            margin: 20px auto;
+            font-size: 14px;
+            color: #666666;
+            a{
+                margin-left: 15px;
+                color: #979797;
+                i{
+                    font-size: 28px;
+                }
+                .icon-zhifubao{
+                    font-size: 31px;
+                }
+                &:nth-child(1):hover{
+                        color: #008000;
+                }
+                &:nth-child(2):hover{
+                        color: #00CCFF;
+                }
+                &:nth-child(3):hover{
+                        color: #e8380d;
+                }
+                &:nth-child(4):hover{
+                        color: #00CCFF;
+                }
+            }
+        }
+    }
+}
+.footer{
+    p{
+        text-align: center;
+        font-size: 12px;
+        color: #cccccc;
+        img{
+            width: 12px;
+            height: 12px;
+        }
+    }
 }

@@ -1,0 +1,162 @@
+
+body{
+    background: #f5f5f5;
+}
+.container{
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background: #fff;
+    margin-bottom: 40px;
+    padding-bottom: 80px;
+    overflow: hidden;
+    .logo{
+        background: url(/images/login_logo.jpg) no-repeat;
+        background-size: 100% 100%;
+        width: 156px;
+        height: 25px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    form{
+//      切换键的样式
+        .navTab{
+            width: 340px;
+            margin: 0 auto;
+            font-size: 18px;
+            color: #333333;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            #phone_register,#email_regiseter{
+                cursor: pointer;
+            }
+            #phone_register{
+                color: #e8380d;
+            }
+        }
+//      手机注册样式
+        .phone_register,.email_register{
+            width: 360px;
+            margin: 0 auto;
+            >div{
+                width: 100%;
+                height: 50px;
+                margin-bottom: 20px;
+                input{
+                    border: 1px solid #e0e4e7;
+                    padding-left: 10px;
+                    font-size: 12px;
+                    line-height: 50px;
+                }
+                span{
+                    color: #FF0000;
+                    font-size: 12px;
+                    line-height: 50px;
+                }
+                &:nth-child(1),&:nth-child(2){
+                    position: relative;
+                    >input{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    span{
+                        position: absolute;
+                        top: 0;
+                        right: -75px;
+                    }
+                }
+                &:nth-child(3){
+                    position: relative;
+                    >input{
+                        width: 70%;
+                        height: 100%;
+                    }
+                    .getcode{
+                        display: inline-block;
+                        width: 28%;
+                        height: 95%;
+                        border: 1px solid #e0e4e7;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                    }
+                    >span{
+                        position: absolute;
+                        top: 0;
+                        right: -100px;
+                    }
+                }
+                &:nth-child(4){
+                    position: relative;
+                    >input{
+                        width: 75%;
+                        height: 100%;
+                    }
+                    >button{
+                        width: 23%;
+                        height: 100%;
+                        border: 1px solid #e0e4e7;
+                        background: #FFFFFF;
+                        font-size: 12px;
+                    }
+                    >span{
+                        position: absolute;
+                        top: 0;
+                        right: -122px;
+                    }
+                }
+            }
+        }
+        //邮箱注册默认隐藏
+        .email_register{
+            display:none;
+        }
+//      尾部提交
+        .registfooter{
+            width: 360px;
+            height: 118px;
+            margin: 0 auto;
+            font-size: 14px;
+            div{
+                margin-bottom: 10px;
+                #register_btn{
+                    width: 360px;
+                    height: 50px;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    background: #e8380d;
+                    color: #FFFFFF;
+                    font-size: 20px;
+                    border: none;
+                    cursor: pointer;
+                    display: block;
+                }
+            }
+            p{
+                text-align: right;
+            }
+            a{
+                color: #e8380d;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+            
+        }
+        
+    }
+}
+
+
+//尾部
+.footer{
+    p{
+        text-align: center;
+        font-size: 12px;
+        color: #cccccc;
+        img{
+            width: 12px;
+            height: 12px;
+        }
+    }
+} 
