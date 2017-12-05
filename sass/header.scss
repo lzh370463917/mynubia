@@ -27,10 +27,14 @@ fieldset,legend, input, button, textarea, p, blockquote,
             font-size: 13px;
             line-height: 67px;
             color: #ffffff;
+            a{
+                color: #FFFFFF;
+            }
             &:hover{
                 color: #666666;
                 cursor: pointer;
                 a{
+                    text-decoration:none;
                     i{
                         color: #666666;
                     }

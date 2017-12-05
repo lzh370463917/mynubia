@@ -1,5 +1,6 @@
 require(["config"], function() {
 	require(["jquery", "cookie"], function() {
+		//点击账号登录，隐藏手机登录
 		$("#account_login").on("click", function() {
 			$(this).css({
 				"color": "#e8380d"
@@ -10,9 +11,8 @@ require(["config"], function() {
 				})
 			});
 			$(".reg_phone").hide();
-			
-		})
-
+		});
+		//点击手机登录，隐藏账号登录	
 		$("#phone_login").on("click", function() {
 			$(this).css({
 				"color": "#e8380d"
@@ -23,6 +23,11 @@ require(["config"], function() {
 				})
 			});
 			$(".reg_phone").show();
-		})
+		});
+		
+		
+		
+		
+		
 	})
 })

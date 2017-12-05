@@ -2,6 +2,8 @@ define(["jquery","cookie"],function(){
 	$.ajax("/html/include/header.html").done(function(data){
 		$(".header").html(data);
 	}).done(function(){
+		$("a").css({"text-decoration":"none"});
+		
 		$(".cellphone").hover(function(){
 			$("#z17box").stop().fadeIn();
 //			$("#z17box").stop().animate({height:"240px"},600);
@@ -43,6 +45,8 @@ define(["jquery","cookie"],function(){
 	$.ajax("/html/include/footer.html").done(function(data){
 		$(".footer").html(data);
 	}).done(function(){
+		$("a").css({"text-decoration":"none"});
+		
 		$("#QRcode").hover(function(){
 			$("#QRcode .qrcodepic").stop().fadeIn(1000);
 		},function(){

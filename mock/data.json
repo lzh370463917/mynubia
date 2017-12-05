@@ -1,0 +1,80 @@
+{
+	"status":1,
+	"message":"success",
+	"data":[
+		{
+			"title" : "热门产品",
+			"products":[
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799","reduce":"直降300"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799","reduce":"直降200"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799","reduce":"直降100"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799","reduce":"直降400"}
+			]
+		},
+		{
+			"title" : "精品手机",
+			"advertise":"/images/151176100782.jpg",
+			"products":[
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"}
+			]
+		},
+		{
+			"title" : "精选配件",
+			"products":[
+			{"id":1,"img":"/images/150779321254.jpg"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"}
+			]
+		},
+		{
+			"title" : "产品热评",
+			"products":[
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"}
+			]
+		},
+		{
+			"title" : "视频",
+			"products":[
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"}
+			]
+		},
+		{
+			"title" : "服务",
+			"products":[
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/hotpic1.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"}
+			]
+		},
+		{
+			"title" : "index轮播",
+			"products":[
+			{"id":1,"img":"/images/151201897213.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/150958900638.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/150959275480.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/150958951828.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"},
+			{"id":1,"img":"/images/150811561722.jpg","title":"Z17 无边框 曜石黑","introduce":"骁龙835旗舰处理器","price":"￥2499","orgprice":"2799"}
+			]
+		}
+		
+	]
+
+}

@@ -61,34 +61,100 @@
 			</div>
 		</div>
 		<div class="mall">
-			<div class="change_left"></div>
-			<div class="change_right"></div>
+			<div class="change_left">
+				<ul>
+					<li>
+						<a href="#">
+							<i class="iconfont icon-gengduo1"></i>
+							<span>以旧换新</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="iconfont icon-41kongxinfangzi"></i>
+							<span>NB码通道</span>							
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="iconfont icon-gengduo"></i>
+							<span>意外保</span>
+							
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="iconfont icon-liwu"></i>
+							<span>真伪查询</span>
+							
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="iconfont icon-yaoqinghaoyoupengyou"></i>
+							<span>售后网点</span>
+							
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="iconfont icon-sousuo"></i>
+							<span>软件下载</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="change_right">
+				<div><a href="#"><img src="/images/change_right1.jpg"/></a></div>
+				<div><a href="#"><img src="/images/change_right1.jpg"/></a></div>
+				<div><a href="#"><img src="/images/change_right1.jpg"/></a></div>
+			</div>
 		</div>
-		<div class="hotproducts">
-			<h1>热门产品</h1>
-			<div class="mall_box"></div>
-		</div>
-		<div class="competitive">
-			<h1>精品手机</h1>
-			<div class="up"></div>
-			<div class="down"></div>
-		</div>
-		<div class="compet_fit">
+		<div class="main">
 			
 		</div>
-		<div class="hotcomment">
-			<h1>产品热评</h1>
-		</div>
-		<div class="video">
-			<h1>视频</h1>
-		</div>
-		<div class="server">
-			<h1>服务</h1>
-		</div>
+		
 		
 		<div class="footer"></div>
 		<script src="/lib/requirejs/require.js" data-main="/js/list"></script>
-		<script type="text/javascript">
+		<script type="text/html" id="floor_template">
+			{{each floors as floor}}
+				
+				<div class="floor">
+					<div class="title">
+						<h2>{{floor.title}}</h2>
+						<span><a href="#">查看更多</a></span>
+					</div>
+					<div class="bigimg"><a href="#"><img src="{{floor.advertise}}"/></a></div>
+					<div class="hot_box">
+						
+						<ul>
+							{{each floor.products as product}}
+							<li>
+								<div class="reduce"><a href="#">{{product.reduce}}</a></div>
+								<dl>
+									<dt><a href="#"><img src="{{product.img}}"/></a></dt>
+									<dd>
+										<h2>{{product.title}}</h2>
+										<span>{{product.introduce}}</span>
+									</dd>
+								</dl>
+								<div class="price">
+									<span>{{product.price}}</span>|
+									<span>{{product.orgprice}}</span>
+								</div>
+								<div class="hotfoot">
+									<a href="#">查看详情</a>
+									<a href="#">立即购买</a>
+								</div>
+							</li>
+							{{/each}}
+						</ul>
+						
+					</div>
+				</div>
+				
+			{{/each}}	
 			
 		</script>
 	</body>
