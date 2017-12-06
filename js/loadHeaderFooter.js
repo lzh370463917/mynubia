@@ -1,5 +1,5 @@
 define(["jquery","cookie"],function(){
-	$.ajax("/html/include/header.html").done(function(data){
+	$.ajax("/mynubia/html/include/header.html").done(function(data){
 		$(".header").html(data);
 	}).done(function(){
 		$("a").css({"text-decoration":"none"});
@@ -42,7 +42,7 @@ define(["jquery","cookie"],function(){
 	});
 	
 	//尾部微信二维码淡入淡出效果
-	$.ajax("/html/include/footer.html").done(function(data){
+	$.ajax("/mynubia/html/include/footer.html").done(function(data){
 		$(".footer").html(data);
 	}).done(function(){
 		$("a").css({"text-decoration":"none"});

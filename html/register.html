@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="/css/resetStyle.css"/>
-		<link rel="stylesheet" type="text/css" href="/css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="/mynubia/css/resetStyle.css"/>
+		<link rel="stylesheet" type="text/css" href="/mynubia/css/register.css"/>
 		
 	</head>
 	<body>
@@ -20,22 +20,22 @@
 				<!--手机注册-->
 				<div class="phone_register">
 					<div>
-						<input type="text" id="" placeholder="请输入手机号码" />
-						<span>请填写信息</span>
+						<input type="text" name="username" id="username" placeholder="请输入手机号码" />
+						<span id="usernametip"></span>
 					</div>
 					<div>
-						<input type="password" id="" placeholder="密码为6-16个字符（数字、字母、符号至少包括两种）" />
-						<span>请填写信息</span>
+						<input type="password" name="password" id="password" placeholder="密码为6-16个字符（数字、字母、符号至少包括两种）" />
+						<span id="passwordtip"></span>
 					</div>
 					<div>
-						<input type="text" id="" placeholder="请输入验证码（不区分大小写）" />
-						<span class="getcode"></span>
-						<span>验证码不能为空</span>
+						<input type="text" id="valicode" placeholder="请输入验证码（不区分大小写）" />
+						<span class="getcode"><img src=""/></span>
+						<span id="checkcode"></span>
 					</div>
 					<div>
 						<input type="text" id="" placeholder="请输入手机收到的验证码" />
 						<button>获取验证码</button>
-						<span>手机验证码不能为空</span>
+						<span></span>
 					</div>
 				</div>
 				<!--邮箱注册-->
@@ -68,7 +68,7 @@
 					<div class="submit">
 						<input type="button" value="提交" id="register_btn"/>
 					</div>
-					<p>已有账号，<a href="/html/login.html">直接登录</a></p>
+					<p>已有账号，<a href="/mynubia/html/login.html">直接登录</a></p>
 				</div>
 			</form>
 		</div>
@@ -76,9 +76,9 @@
 		<div class="footer">
 			<p>2012-2017 努比亚 版权所有 粤ICP备10006213号-2 ICP经营许可证编号：
 				粤B2-20120688深圳市市场监督管理局企业主体身份公示 
-				<img src="/images/57c5599015f1558.png"/>努比亚技术有限公司</p>
+				<img src="/mynubia/images/57c5599015f1558.png"/>努比亚技术有限公司</p>
 		</div>
 		
-		<script src="/lib/requirejs/require.js" data-main="/js/register"></script>
+		<script src="/mynubia/lib/requirejs/require.js" data-main="/mynubia/js/register"></script>
 	</body>
 </html>
