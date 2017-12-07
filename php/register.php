@@ -21,9 +21,9 @@
 	
 	// 根据执行结果判断
 	if ($result) { // 成功，则跳转到登录页面
-		echo "<script>location='/mynubia/html/login.html';</script>";
+		echo '{"status":1,"message":"success"}';
 	} else { // 失败，跳转到注册页面重新输入
-		echo "<script>location='/mynubia/html/register.html';</script>";
+		echo '{"status":0,"message":"failed"}';
 	}
 	// 关闭数据库连接
 	mysql_close();

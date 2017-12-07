@@ -1,0 +1,12 @@
+{
+	"status":1,
+	"message":"success",
+	"parameter":[
+		{"id":1,"img":"/mynubia/images/parameter_pic1.jpg"},
+		{"id":1,"img":"/mynubia/images/parameter_pic2.jpg"},
+		{"id":1,"img":"/mynubia/images/parameter_pic3.jpg"},
+		{"id":1,"img":"/mynubia/images/parameter_pic4.jpg"},
+		{"id":1,"img":"/mynubia/images/parameter_pic5.jpg"},
+		{"id":1,"img":"/mynubia/images/parameter_pic6.jpg"}
+	]
+}

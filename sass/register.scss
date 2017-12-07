@@ -64,6 +64,12 @@ body{
                         top: 0;
                         right: -75px;
                     }
+                    #usernametip1{
+                        right: -112px;
+                    }
+                    #usernametip{
+                        right: -125px;
+                    }
                 }
                 &:nth-child(3){
                     position: relative;
@@ -88,6 +94,19 @@ body{
                         position: absolute;
                         top: 0;
                         right: -100px;
+                    }
+                    .getcode1{
+                        display: inline-block;
+                        width: 28%;
+                        height: 95%;
+                        border: 1px solid #e0e4e7;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
                     }
                 }
                 &:nth-child(4){

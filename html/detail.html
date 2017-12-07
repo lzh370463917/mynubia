@@ -3,7 +3,62 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="/mynubia/css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="/mynubia/css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="/mynubia/lib/font/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="/mynubia/css/detail.css"/>
 	</head>
 	<body>
+		<div class="header"></div>
+		<div class="main">
+			<div class="up">
+				<div class="left">
+					<div class="bigimg"></div>
+					<div class="smallimg">
+						<ul class="addsmall">
+							
+						</ul>
+					</div>
+				</div>
+				<div class="right"></div>
+				<div class="share"></div>
+			</div>
+			
+			
+			<div class="down">
+				<div class="tab-content">
+					<ul>
+						<li class="Commoditydetails_btn">商品详情</li>
+						<li>|</li>
+						<li class="parameter_btn">规格参数</li>
+					</ul>
+				</div>
+				<div class="Commoditydetails"></div>
+				<div class="parameter"></div>
+			</div>
+		</div>
+		<div class="footer"></div>
+		
+		<script src="/mynubia/lib/requirejs/require.js" data-main="/mynubia/js/detail"></script>
+		<script type="text/html" id="Commoditydetails_template">
+			{{each products as product}}
+				<div><img src="{{product.img}}"/></div>
+			{{/each}}
+		</script>
+		<script type="text/html" id="parameter_template">
+			{{each parameters as parameter}}
+				<div><img src="{{parameter.img}}"/></div>
+			{{/each}}
+		</script>
+		<script type="text/html" id="smallimg_template">
+			{{each products as product}}
+				<li><img src="{{product.img}}"/></li>
+			{{/each}}
+		</script>
+		<script type="text/html" id="bigimg_template">
+			{{each products as product}}
+				<img src="{{product.img}}"/>
+			{{/each}}
+		</script>
 	</body>
 </html>

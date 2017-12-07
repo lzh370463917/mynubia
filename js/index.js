@@ -4,7 +4,7 @@ require(["config"],function(){
 			
 			
 			//轮播异步加载data数据
-			$.ajax("/mock/data.json").done(function(responseData){
+			$.ajax("/mynubia/mock/data.json").done(function(responseData){
 				responseData.data=responseData.data.slice(6,7);
 //				console.log(responseData.data);
 				var html=template("carousel_template",{floors:responseData.data});
@@ -29,7 +29,11 @@ require(["config"],function(){
 					width:"105%"
 				},1000)
 			});
-			
+		
+		
+		
+		
+		
 		})
 		
 	})

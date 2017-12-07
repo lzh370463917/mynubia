@@ -39,6 +39,14 @@ define(["jquery","cookie"],function(){
 			$(this).css({"color":"#ffffff"})
 		})
 		
+		if($.cookie("username")){
+			$("#personal").html("欢迎您<a href='#'>"+$.cookie('username')+"</a>")
+		}else{
+			
+		}
+		
+		
+		
 	});
 	
 	//尾部微信二维码淡入淡出效果

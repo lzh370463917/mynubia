@@ -1,0 +1,22 @@
+{
+	"status":1,
+	"message":"success",
+	"details":[
+		{"id":1,"img":"/mynubia/images/commodity_pic1.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic2.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic3.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic4.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic5.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic6.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic7.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic8.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic9.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic10.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic11.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic12.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic13.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic14.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic15.jpg"},
+		{"id":1,"img":"/mynubia/images/commodity_pic16.jpg"}
+	]
+}

@@ -32,9 +32,10 @@ require(["config"], function() {
 						},
 						success:function(data){
 							var responseData=jQuery.parseJSON(data);
-//							console.log(responseData)
+							console.log(responseData)
 							if(responseData.status===1){
 								location="/mynubia/html/list.html";
+								$.cookie("username",responseData.data.username,{expires:7,path:"/"})
 							}else{
 								alert("用户名或密码错误")
 							}
@@ -83,9 +84,11 @@ require(["config"], function() {
 //							console.log(responseData)
 							if(responseData.status===1){
 								location="/mynubia/html/list.html";
+								$.cookie("username",responseData.data.username,{expires:7,path:"/"})
 							}else{
 								alert("用户名或密码错误")
 							}
+							console.log($.cookie("username"))
 					}});
 				})
 			}else{

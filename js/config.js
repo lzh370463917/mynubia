@@ -6,6 +6,7 @@ require.config({
 		"fly":"/mynubia/lib/jquery_plugins/jquery.fly.min",
 		"template":"/mynubia/lib/arttemplate/template",
 		"loadheaderfooter":"/mynubia/js/loadHeaderFooter",
-		"bootstrap":"/mynubia/lib/bootstrap/js/bootstrap.min"
+		"bootstrap":"/mynubia/lib/bootstrap/js/bootstrap.min",
+		"elevateZoom":"/mynubia/lib/jquery_plugins/jquery.elevateZoom-3.0.8.min"
 	}
 })
